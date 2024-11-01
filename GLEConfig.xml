@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2181" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Red Hot Gold WLA" version="1.0.7" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="Y"
+              numberGenerator="RNG"
+              betMultipliers="50,100,200,300,500,1000,2000"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO,en_NZ"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="N"
+              stateful="N">   
+
+            <!-- ZER -->
+            <!-- <paymodel modelid="300-2181-099"  revealId="2181" revealVersionId="2181"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Red Hot Gold WLA : 300-2181-099"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2181-099" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2181-099" clienttype="HTML" configcode="PHLP"/> -->
+
+            <!-- GA $0.50, $1, $2, $3, $5, $10 & $20 -->
+            <paymodel modelid="300-2181-001"  revealId="4542" revealVersionId="4536"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Red Hot Gold WLA : 300-2181-001"
+                      hibethold="35.00" lobethold="31.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2181-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2181-001" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- NT 20Kr -->
+            <paymodel modelid="300-2181-002"  revealId="4542" revealVersionId="4536"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Red Hot Gold WLA : 300-2181-002"
+                      hibethold="25.00" lobethold="25.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2181-002" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2181-002" clienttype="HTML" configcode="PHLP"/>
+
+            <!-- LNZ $2 -->
+            <paymodel modelid="300-2181-003"  revealId="4542" revealVersionId="4536"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Red Hot Gold WLA : 300-2181-003"
+                      hibethold="39.00" lobethold="39.00"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"/>
+
+            <paymodelConfig modelid="300-2181-003" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2181-003" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="NZD" amount="0.01,0.02"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>
